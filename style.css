@@ -1,22 +1,21 @@
-body {
-    font-family: "Arial", sans-serif;
+*{
+    background-color: #fff;
+    text-align: center
 }
-section {
-    text-align: center;
+
+.row{
+    display: flex;
+    justify-content: center;
 }
-.game--container {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    width: 306px;
-    margin: 50px auto;
-}
-.cell {
-    font-family: "Permanent Marker", cursive;
+
+.block{
     width: 100px;
     height: 100px;
-    box-shadow: 0 0 0 1px #333333;
-    border: 1px solid #333333;
-    cursor: pointer;
-line-height: 100px;
-    font-size: 60px;
+    border: 1px solid black;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#reset{
+    margin-top: 10px;
 }
